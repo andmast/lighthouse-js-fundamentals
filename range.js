@@ -1,6 +1,6 @@
 function range(start, end, step) {
   var walk = [];
-  if (start < end && step >= 0 &&  start !== undefined &&  end !== undefined && step !== undefined) {
+  if (start !== undefined &&  end !== undefined && step !== undefined && start < end && step >= 0 ) {
     for (var i = start; i <= end; i += step) {
       walk.push(i);
     }
